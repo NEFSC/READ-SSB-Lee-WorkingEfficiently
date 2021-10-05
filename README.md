@@ -1,20 +1,23 @@
-# Project Template
+# Introduction
+This repository is simply a collection of other repositories that are designed to help you work more efficiently, plus a "how to help" section.
 
-A small repository that will help you set up an organized project. There is also a tiny bit of sample code about how to get data off the NEFSC oracle servers.  
+# How to help 
 
-1. A folder structure and some utilities that will (hopefully) help you keep things organized
-1. Getting Data
-    1. Sample code for extracting data from oracle using stata.
-    1. Sample code for extracting data from oracle using R with ROracle and RODBC.
-1. a class file (ajae_mod.csl) and a latex preamble (preamble-latex.tex) that might make your life easier if you are using markdown to make pdfs.
+Please help make these more valable and keep them up-to-date.  To add your knowledge:
+1.   [Fork](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo) - It's in the top right of github.  ![Here's a picture](/images/fork_edit.jpg)
+1.   Make your changes  - click the file you want to edit and then the little pencil on the right side.  Don't forget to use the preview button if you're using the web editor. ![Here's a picture](/images/editor_preview.jpg)
+1.   Issue a [Pull Request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork) so the changes get into the document.  Please request a review so the maintainer knows that they need to review and commit.
 
-# How to use
+To just watch: do this
 
-1.  Read through https://github.com/NEFSC/READ-SSB-Lee-project-template-instructions
-1.  Create a new repository using this as a template.
-1.  Clone it the new repository locally, using Github Desktop, Rstudio, or something else.
-1.  Follow along with https://github.com/NEFSC/READ-SSB-Lee-project-template-instructions on what to modify
-1.  Delete the parts of this readme that are no longer needed.
+
+
+
+# Other repositories.  
+1. A github project template, full of fun stuff
+1. Instructions for that template https://github.com/NEFSC/READ-SSB-Lee-project-template-instructions
+1. A scraper to get data from the NMFS foreign trade website.  
+
 
 # NOAA Requirements
 This repository is a scientific product and is not official communication of the National Oceanic and Atmospheric Administration, or the United States Department of Commerce. All NOAA GitHub project code is provided on an ‘as is’ basis and the user assumes responsibility for its use. Any claims against the Department of Commerce or Department of Commerce bureaus stemming from the use of this GitHub project will be governed by all applicable Federal law. Any reference to specific commercial products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply their endorsement, recommendation or favoring by the Department of Commerce. The Department of Commerce seal and logo, or the seal and logo of a DOC bureau, shall not be used in any manner to imply endorsement of any commercial product or activity by DOC or the United States Government.”
