@@ -1,0 +1,22 @@
+\usepackage{setspace}
+\usepackage{authblk}
+
+\usepackage{tocloft}
+\usepackage{lineno}
+\usepackage{pdflscape}
+
+\onehalfspacing
+
+\usepackage{float}
+\let\origfigure\figure
+\let\endorigfigure\endfigure
+\renewenvironment{figure}[1][2] {
+    \expandafter\origfigure\expandafter[H]
+} {
+    \endorigfigure
+}
+
+%Turn off page numbers for figures?
+\cftpagenumbersoff{figure}
+
+\renewcommand{\cftdotsep}{\cftnodots}

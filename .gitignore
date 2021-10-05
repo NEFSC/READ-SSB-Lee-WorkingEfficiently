@@ -1,0 +1,17 @@
+.Rproj.user
+*.Rproj
+.Rhistory
+*.RData
+*.Rdata
+*.Rds
+.Ruserdata
+R_credentials.R
+*.log
+*.html
+library.bib
+*.pdf
+*.doc
+*.docx
+*.aux
+*.out
+*.dta

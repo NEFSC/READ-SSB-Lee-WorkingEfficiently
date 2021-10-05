@@ -1,0 +1,1 @@
+this is a place to put internal data. You might also prefer to put it in the raw folder.
