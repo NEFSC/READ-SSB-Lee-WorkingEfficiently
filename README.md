@@ -14,7 +14,7 @@ To just keep tabs on a repository for changes, you can watch it. ![Here's a pict
 
 # Other repositories.  
 1. [A project template](https://github.com/NEFSC/READ-SSB-Lee-project-template) , full of fun stuff to get your project started on the right foot.
-1. [Instructions](https://github.com/NEFSC/READ-SSB-Lee-project-template-instructions) for using and customizing said template https://github.com/NEFSC/READ-SSB-Lee-project-template-instructions
+1. [Instructions](https://github.com/NEFSC/READ-SSB-Lee-project-template-instructions) for using and customizing said template
 1. A scraper for the  [NMFS foreign trade website](https://github.com/cameronspeir/NOAA-Foreign-Fishery-Trade-Data-API).  
 
 
