@@ -4,11 +4,20 @@ This repository is simply a collection of other repositories that are designed t
 # How to help 
 
 Please help make these more valuable and keep them up-to-date.  To add your knowledge:
-1.   [Fork](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo) - It's in the top right of github.  ![Here's a picture](/images/fork_edit.jpg)
-1.   Make your changes  - click the file you want to edit and then the little pencil on the right side.  Don't forget to use the preview button if you're using the web editor. ![Here's a picture](/images/editor_preview.jpg)
-1.   Issue a [Pull Request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork) so the changes get into the document.  It's a good idea to request a review so the maintainer knows that they need to review and commit.
+1.   Make your changes  - click the file you want to edit and then the little pencil on the right side. ![Here's a picture](/images/straight_edit.jpg)
+  You will see something that looks like this:  ![Here's a picture](/images/auto_fork.png).  This will create your own fork.  
+  
+2.   Make your changes, and use the preview button to make sure it looks nice. ![Here's a picture](/images/editor_preview.jpg)
+3.   Issue a [Pull Request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork) so the changes get into the document.  It's a good idea to request a review so the maintainer knows that they need to review and commit.
+
 
 To just keep tabs on a repository for changes, you can watch it. ![Here's a picture](/images/watch.png)
+
+If you want to change more than 1 file, or you want to upload something:
+1.  [Fork](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo) - It's in the top right of github.  ![Here's a picture](/images/fork_edit.jpg)
+2.  Make your changes
+3.  Submit a Pull Request.
+
 
 # Other repositories  
 1. [A project template](https://github.com/NEFSC/READ-SSB-Lee-project-template) , full of fun stuff to get your project started on the right foot.
