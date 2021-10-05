@@ -1,7 +1,7 @@
 # Introduction
 This repository is simply a collection of other repositories that are designed to help you work more efficiently, plus a "how to help" section.  I used [my project template](https://github.com/NEFSC/READ-SSB-Lee-project-template) to start this up, so there are probably a bunch of extraneous bits.
 
-To just keep tabs on a repository for changes, you can watch it. ![Here's a picture](/images/watch.png)
+To just keep tabs on a repository for changes, you can watch it using the watch button on the top right. ![Here's a picture](/images/watch.png)
 
 # How to help 
 
