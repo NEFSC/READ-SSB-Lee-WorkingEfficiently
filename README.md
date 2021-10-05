@@ -8,14 +8,14 @@ Please help make these more valable and keep them up-to-date.  To add your knowl
 1.   Make your changes  - click the file you want to edit and then the little pencil on the right side.  Don't forget to use the preview button if you're using the web editor. ![Here's a picture](/images/editor_preview.jpg)
 1.   Issue a [Pull Request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork) so the changes get into the document.  It's a good idea to request a review so the maintainer knows that they need to review and commit.
 
-To just watch, do this ![Here's a picture](/images/watch.png)
+To just keep tabs on a repository for changes, you can watch it. ![Here's a picture](/images/watch.png)
 
 
 
 # Other repositories.  
-1. A github project template, full of fun stuff
-1. Instructions for that template https://github.com/NEFSC/READ-SSB-Lee-project-template-instructions
-1. A scraper to get data from the NMFS foreign trade website.  
+1. [A project template](https://github.com/NEFSC/READ-SSB-Lee-project-template) , full of fun stuff to get your project started on the right foot.
+1. [Instructions](https://github.com/NEFSC/READ-SSB-Lee-project-template-instructions) for using and customizing said template https://github.com/NEFSC/READ-SSB-Lee-project-template-instructions
+1. A scraper for the  [NMFS foreign trade website](https://github.com/cameronspeir/NOAA-Foreign-Fishery-Trade-Data-API).  
 
 
 # NOAA Requirements
