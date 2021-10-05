@@ -10,12 +10,18 @@ Please help make these more valable and keep them up-to-date.  To add your knowl
 
 To just keep tabs on a repository for changes, you can watch it. ![Here's a picture](/images/watch.png)
 
-
-
-# Other repositories.  
+# Other repositories  
 1. [A project template](https://github.com/NEFSC/READ-SSB-Lee-project-template) , full of fun stuff to get your project started on the right foot.
 1. [Instructions](https://github.com/NEFSC/READ-SSB-Lee-project-template-instructions) for using and customizing said template
 1. A scraper for the  [NMFS foreign trade website](https://github.com/cameronspeir/NOAA-Foreign-Fishery-Trade-Data-API).  
+1. Some code to run [R on the NEFSC Servers](https://github.com/NEFSC/READ-SSB-Lee-Ronthenetwork).  
+1. A bit about the [Oracle databases](https://github.com/NEFSC/READ-SSB-Lee-metadata).
+1. Code to construct Affiliated Firms for the [Regulatory Flexibility Act Analyses] https://github.com/NEFSC/READ-SSB-Lee-RFAdataset).
+1. Some code to run [Call Stata from R](https://github.com/NEFSC/READ-SSB-LEE-R_calling_stata).  
+1. A semi-random jumble of [code scraps](https://github.com/NEFSC/READ-SSB-Lee_code_scraps).  
+1. Code to assemble [custom rasters](https://github.com/NEFSC/READ-SSB-Lee-Raster_requests).  
+1. Code to work with the [NCEP  NARR reanalysis data ](https://github.com/NEFSC/READ-SSB-Lee-reanalysis).  
+
 
 
 # NOAA Requirements
@@ -23,10 +29,10 @@ This repository is a scientific product and is not official communication of the
 
 
 1. who worked on this project:  Min-Yang Lee
-1. when this project was created: Jan, 2021 
-1. what the project does: Helps people get organized.  Shows how to get data from NEFSC oracle 
-1. why the project is useful:  Helps people get organized.  Shows how to get data from NEFSC oracle 
-1. how users can get started with the project: Download and follow the readme
+1. when this project was created: October, 2021 
+1. what the project does: Brief directory of various bits of code that will help Social Science folks at NEFSC work more efficiently.
+1. why the project is useful:  Helps people be a little more efficient
+1. how users can get started with the project: Just GoGoGo.
 1. where users can get help with your project:  email me or open an issue
 1. who maintains and contributes to the project. Min-Yang
 
