@@ -24,16 +24,17 @@ Please help make these more valuable and keep them up-to-date.  To add your know
 
 # Other repositories  
 1. [A project template](https://github.com/NEFSC/READ-SSB-Lee-project-template) , full of fun stuff to get your project started on the right foot.
-1. [Instructions](https://github.com/NEFSC/READ-SSB-Lee-project-template-instructions) for using and customizing said template
-1. A scraper for the  [NMFS foreign trade website](https://github.com/cameronspeir/NOAA-Foreign-Fishery-Trade-Data-API).  
-1. Some code to run [R on the NEFSC Servers](https://github.com/NEFSC/READ-SSB-Lee-Ronthenetwork).  
-1. A bit about the [Oracle databases](https://github.com/NEFSC/READ-SSB-Lee-metadata).
-1. Code to construct Affiliated Firms for the [Regulatory Flexibility Act Analyses](https://github.com/NEFSC/READ-SSB-Lee-RFAdataset).
-1. Some code to run [Call Stata from R](https://github.com/NEFSC/READ-SSB-LEE-R_calling_stata).  
-1. A semi-random jumble of [code scraps](https://github.com/NEFSC/READ-SSB-Lee_code_scraps).  
-1. Code to assemble [custom rasters](https://github.com/NEFSC/READ-SSB-Lee-Raster_requests).  
-1. Code to work with the [NCEP  NARR reanalysis data ](https://github.com/NEFSC/READ-SSB-Lee-reanalysis).  
-1. The [offshoreWind](https://github.com/dcorvi/offshoreWind) package.
+2. [Instructions](https://github.com/NEFSC/READ-SSB-Lee-project-template-instructions) for using and customizing said template
+3. Information about setting up github and extracting oracle data on the [servers](https://github.com/NEFSC/READ-SSB-LEE-On-the-servers)
+4. Some code to run [R on the NEFSC Servers](https://github.com/NEFSC/READ-SSB-Lee-Ronthenetwork).  
+5. A scraper for the  [NMFS foreign trade website](https://github.com/cameronspeir/NOAA-Foreign-Fishery-Trade-Data-API).  
+6. A bit about the [Oracle databases](https://github.com/NEFSC/READ-SSB-Lee-metadata).
+7. Code to construct Affiliated Firms for the [Regulatory Flexibility Act Analyses](https://github.com/NEFSC/READ-SSB-Lee-RFAdataset).
+8. Some code to run [Call Stata from R](https://github.com/NEFSC/READ-SSB-LEE-R_calling_stata).  
+9. A semi-random jumble of [code scraps](https://github.com/NEFSC/READ-SSB-Lee_code_scraps).  
+10. Code to assemble [custom rasters](https://github.com/NEFSC/READ-SSB-Lee-Raster_requests).  
+11. Code to work with the [NCEP  NARR reanalysis data ](https://github.com/NEFSC/READ-SSB-Lee-reanalysis).  
+12. The [offshoreWind](https://github.com/dcorvi/offshoreWind) package.
 
 # NOAA Requirements
 This repository is a scientific product and is not official communication of the National Oceanic and Atmospheric Administration, or the United States Department of Commerce. All NOAA GitHub project code is provided on an ‘as is’ basis and the user assumes responsibility for its use. Any claims against the Department of Commerce or Department of Commerce bureaus stemming from the use of this GitHub project will be governed by all applicable Federal law. Any reference to specific commercial products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply their endorsement, recommendation or favoring by the Department of Commerce. The Department of Commerce seal and logo, or the seal and logo of a DOC bureau, shall not be used in any manner to imply endorsement of any commercial product or activity by DOC or the United States Government.”
