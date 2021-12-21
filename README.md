@@ -36,6 +36,33 @@ Please help make these more valuable and keep them up-to-date.  To add your know
 11. Code to work with the [NCEP  NARR reanalysis data ](https://github.com/NEFSC/READ-SSB-Lee-reanalysis).  
 12. The [offshoreWind](https://github.com/dcorvi/offshoreWind) package.
 
+# Dealing with Merge Conflicts
+
+When there's a merge conflict Rstudio or Git will create a combined file. that has code from both. Code from one person will show up between 
+
+`<<<<<<< HEAD`
+
+and 
+`======`
+
+Code from the other person shows up between 
+`======`
+
+
+`>>>>>>>`
+
+You have to figure out which you want and then delete these parts:
+```
+<<<<<<< HEAD
+======
+>>>>>>> 
+```
+
+[More reading](https://stackoverflow.com/questions/7901864/git-conflict-markers)
+
+This doesn't really belong here, but I don't have a place to put it.
+
+
 # NOAA Requirements
 This repository is a scientific product and is not official communication of the National Oceanic and Atmospheric Administration, or the United States Department of Commerce. All NOAA GitHub project code is provided on an ‘as is’ basis and the user assumes responsibility for its use. Any claims against the Department of Commerce or Department of Commerce bureaus stemming from the use of this GitHub project will be governed by all applicable Federal law. Any reference to specific commercial products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply their endorsement, recommendation or favoring by the Department of Commerce. The Department of Commerce seal and logo, or the seal and logo of a DOC bureau, shall not be used in any manner to imply endorsement of any commercial product or activity by DOC or the United States Government.”
 
