@@ -36,7 +36,9 @@ Please help make these more valuable and keep them up-to-date.  To add your know
 11. Code to work with the [NCEP  NARR reanalysis data ](https://github.com/NEFSC/READ-SSB-Lee-reanalysis).  
 12. The [offshoreWind](https://github.com/dcorvi/offshoreWind) package.
 
-# Dealing with Merge Conflicts
+# A few things that belong somewhere else, but I have nowhere to store them for now.
+
+## Dealing with Merge Conflicts
 
 When there's a merge conflict Rstudio or Git will create a combined file. that has code from both. Code from one person will show up between 
 
@@ -60,7 +62,17 @@ You have to figure out which you want and then delete these parts:
 
 [More reading](https://stackoverflow.com/questions/7901864/git-conflict-markers)
 
-This doesn't really belong here, but I don't have a place to put it.
+## Tidying up branches
+
+You might want to delete branches. Perhaps they no longer exist on github after they were pulled into main?  To do this open a terminal. In the working directory type:
+```
+git branch
+```
+to list the names of your branches and then 
+```
+git branch -d <branch_to_delete>
+```
+You will need to use the -D option if you are deleting a branch that has not been fully merged. Like if some of your new code is  bad.
 
 
 # NOAA Requirements
