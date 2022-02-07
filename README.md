@@ -3,6 +3,23 @@ This repository is simply a collection of other repositories that are designed t
 
 To just keep tabs on a repository for changes, you can watch it using the watch button on the top right. ![Here's a picture](/images/watch.png)
 
+
+# Other repositories 
+1. All sorts of information about the [NEFSC Oracle databases](https://github.com/NEFSC/READ-SSB-Lee-metadata).
+2. [A project template](https://github.com/NEFSC/READ-SSB-Lee-project-template) , full of fun stuff to get your project started on the right foot.
+3. [Instructions](https://github.com/NEFSC/READ-SSB-Lee-project-template-instructions) for using and customizing said template
+4. Information about setting up github and extracting oracle data on the [servers](https://github.com/NEFSC/READ-SSB-LEE-On-the-servers)
+5. Some code to run [R on the NEFSC Servers](https://github.com/NEFSC/READ-SSB-Lee-Ronthenetwork).  
+6. A scraper for the  [NMFS foreign trade website](https://github.com/cameronspeir/NOAA-Foreign-Fishery-Trade-Data-API).  
+7. Code to construct Affiliated Firms for the [Regulatory Flexibility Act Analyses](https://github.com/NEFSC/READ-SSB-Lee-RFAdataset).
+8. Some code to run [Call Stata from R](https://github.com/NEFSC/READ-SSB-LEE-R_calling_stata).  
+9. A semi-random jumble of [code scraps](https://github.com/NEFSC/READ-SSB-Lee_code_scraps).  
+10. Code to assemble [custom rasters](https://github.com/NEFSC/READ-SSB-Lee-Raster_requests).  
+11. Code to work with the [NCEP  NARR reanalysis data ](https://github.com/NEFSC/READ-SSB-Lee-reanalysis).  
+12. The [offshoreWind](https://github.com/dcorvi/offshoreWind) package.
+
+
+
 # How to help 
 
 Please help make these more valuable and keep them up-to-date.  To add your knowledge:
@@ -21,20 +38,6 @@ Please help make these more valuable and keep them up-to-date.  To add your know
 3.  Commit your changes to your fork.  Push the changes up to github
 4.  Submit a Pull Request to bring your changes in to the main one.
 
-
-# Other repositories  
-1. [A project template](https://github.com/NEFSC/READ-SSB-Lee-project-template) , full of fun stuff to get your project started on the right foot.
-2. [Instructions](https://github.com/NEFSC/READ-SSB-Lee-project-template-instructions) for using and customizing said template
-3. Information about setting up github and extracting oracle data on the [servers](https://github.com/NEFSC/READ-SSB-LEE-On-the-servers)
-4. Some code to run [R on the NEFSC Servers](https://github.com/NEFSC/READ-SSB-Lee-Ronthenetwork).  
-5. A scraper for the  [NMFS foreign trade website](https://github.com/cameronspeir/NOAA-Foreign-Fishery-Trade-Data-API).  
-6. A bit about the [Oracle databases](https://github.com/NEFSC/READ-SSB-Lee-metadata).
-7. Code to construct Affiliated Firms for the [Regulatory Flexibility Act Analyses](https://github.com/NEFSC/READ-SSB-Lee-RFAdataset).
-8. Some code to run [Call Stata from R](https://github.com/NEFSC/READ-SSB-LEE-R_calling_stata).  
-9. A semi-random jumble of [code scraps](https://github.com/NEFSC/READ-SSB-Lee_code_scraps).  
-10. Code to assemble [custom rasters](https://github.com/NEFSC/READ-SSB-Lee-Raster_requests).  
-11. Code to work with the [NCEP  NARR reanalysis data ](https://github.com/NEFSC/READ-SSB-Lee-reanalysis).  
-12. The [offshoreWind](https://github.com/dcorvi/offshoreWind) package.
 
 # A few things that belong somewhere else, but I have nowhere to store them for now.
 
