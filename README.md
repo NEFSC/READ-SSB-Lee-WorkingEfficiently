@@ -1,8 +1,5 @@
 # Introduction
-This repository is simply a collection of other repositories that are designed to help you work more efficiently, plus a "how to help" section.  I used [my project template](https://github.com/NEFSC/READ-SSB-Lee-project-template) to start this up, so there are probably a bunch of extraneous bits.
-
-To just keep tabs on a repository for changes, you can watch it using the watch button on the top right. ![Here's a picture](/images/watch.png)
-
+This repository is simply a collection of other repositories that are designed to help you work more efficiently, plus a "how to help" section.  I used [my project template](https://github.com/NEFSC/READ-SSB-Lee-project-template) to start this up, so there are probably a bunch of extraneous bits.  Consider this a table of contents.
 
 # Other repositories 
 1. All sorts of information about the [NEFSC Oracle databases](https://github.com/NEFSC/READ-SSB-Lee-metadata).
@@ -21,6 +18,8 @@ To just keep tabs on a repository for changes, you can watch it using the watch 
 
 
 # How to help 
+
+To just keep tabs on a repository for changes, you can watch it using the watch button on the top right. ![Here's a picture](/images/watch.png)
 
 Please help make these more valuable and keep them up-to-date.  To add your knowledge:
 
