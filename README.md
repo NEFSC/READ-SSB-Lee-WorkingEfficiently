@@ -38,7 +38,9 @@ Please help make these more valuable and keep them up-to-date.  To add your know
 4.  Submit a Pull Request to bring your changes in to the main one.
 
 
-# A few things that belong somewhere else, but I have nowhere to store them for now.
+# Lagniappe
+
+Because, who doesn't like a little extra?
 
 ## Dealing with Merge Conflicts
 
