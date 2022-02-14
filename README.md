@@ -43,7 +43,7 @@ Because, who doesn't like a little extra?
 
 ## Dealing with Merge Conflicts
 
-When there's a merge conflict Rstudio or Git will create a combined file. that has code from both. Code from one person will show up between 
+When there's a merge conflict Rstudio or Git will create a combined file that has code from both. Code from one person will show up between 
 
 `<<<<<<< HEAD`
 
