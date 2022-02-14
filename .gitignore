@@ -15,3 +15,5 @@ library.bib
 *.aux
 *.out
 *.dta
+credentials.R
+!/presentations/github_overview.pdf
