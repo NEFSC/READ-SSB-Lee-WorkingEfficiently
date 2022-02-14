@@ -2,7 +2,7 @@
 This repository is simply a collection of other repositories that are designed to help you work more efficiently, plus a "how to help" section.  I used [my project template](https://github.com/NEFSC/READ-SSB-Lee-project-template) to start this up, so there are probably a bunch of extraneous bits.  Consider this a table of contents.
 
 # Other repositories 
-1. All sorts of information about the [NEFSC Oracle databases](https://github.com/NEFSC/READ-SSB-Lee-metadata).
+1. All sorts of information about the data in the [NEFSC Oracle databases](https://github.com/NEFSC/READ-SSB-Lee-metadata).
 2. [A project template](https://github.com/NEFSC/READ-SSB-Lee-project-template) , full of fun stuff to get your project started on the right foot.
 4. Information about setting up github and extracting oracle data on the [servers](https://github.com/NEFSC/READ-SSB-LEE-On-the-servers)
 5. Some code to run [R on the NEFSC Servers](https://github.com/NEFSC/READ-SSB-Lee-Ronthenetwork).  
