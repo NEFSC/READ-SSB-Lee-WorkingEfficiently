@@ -93,7 +93,7 @@ urlcolor: blue
   - When the changes are integrated, delete the branch.
 
 # For more complicated tasks: 
-- Install git and either github desktop or Rstudio on your computer (IT-helpdesk)
+- Ask IT-helpdesk to install "git" and either "Github desktop" or "Rstudio" on your computer.
 \vspace{5mm}
 - Workflow 4:
   - \textcolor{red}{\textit{Clone} the project to your computer.}
