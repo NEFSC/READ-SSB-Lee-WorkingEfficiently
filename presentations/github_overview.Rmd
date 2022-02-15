@@ -1,14 +1,14 @@
 ---
-title: 'Helicopter Introduction to Github'
-author: Min-Yang Lee
+title: "Helicopter Introduction to Github"
+author: "Min-Yang Lee"
 institute: NOAA NMFS Northeast Fisheries Science Center, Woods Hole, MA, USA
-date: March 7, 2022
-urlcolor: blue
+date: "March 7, 2022"
 output:
   beamer_presentation:
+    keep_tex: no
     slide_level: 1
-    keep_tex: false
-thanks: https://github.com/NEFSC/READ-SSB-Lee-WorkingEfficiently/presentations/github_overview.Rmd
+thanks: https://github.com/NEFSC/READ-SSB-Lee-WorkingEfficiently/blob/main/presentations/github_overview.Rmd
+urlcolor: blue
 ---
 
 # Goal:
@@ -38,7 +38,10 @@ thanks: https://github.com/NEFSC/READ-SSB-Lee-WorkingEfficiently/presentations/g
     - Track issues and assign them to people.
     - Aggregate related problems into a project. 
     - Break down a long range project goal into smaller chunks.
-
+- Adds 2-3 steps to your workflow.
+    - Yes, it's a little annoying at first.
+    - Yes, the annoyance disappears quickly. 
+    
 # Why use it?
 -  Collaborate with colleagues. 
     -  Work simultaneously and iterate quickly when developing code.
@@ -50,52 +53,59 @@ thanks: https://github.com/NEFSC/READ-SSB-Lee-WorkingEfficiently/presentations/g
     - You can always go back to a previous version.  If you’ve written a good enough note that you can find that version quickly.
 - Continuity when staff turnover
 
-# Getting Started with Editing a Document
-- You can use github's online editor for simple things.
-- Just need a github account.
-\vspace{5mm}
-- Workflow 1:
-  - Edit a document. 
-  - Write a *commit message*: a note about what you did
-  - Save it by *committing* to the main *branch*.
-  - This is my favorite for small things?  What's small -- you know it when you see it.
-  - You may not have permissions to do this
-
-# Getting Started II 
-
-- Workflow 2:
-  - Edit a document. 
-  - Write a *commit message* 
-  - “Save and *Fork*” the repository.  
-  - Submit a *pull request*:ask the owner to review and integrate changes.
-  - When the changes are integrated, delete your *Fork.*
-  - You can always do this
-- Workflow 3:
-  - Create a *new branch* in the repository.  
-  - Edit a document(s). 
-  - Write a *commit message* 
-  - Committing to that branch.
-  - Submit a pull request for the owner to review and integrate your changes.
-  - When the changes are integrated, delete the branch.
-
-# For more complicated tasks: 
-- Install git and either github desktop or Rstudio on your computer (IT-helpdesk)
-- Do the github dance
-  - Pull: get the most recent code from github.
-  - Create a branch: make a duplicate of the code. Give it a snazzy name.
-  - Write code and save (just like usual)
-  - Commit: tell git that you *really* want to save it.
-  - Push: Send your new, snazzily-named branch up to Github.
-  - Pull request: Ask someone review your code and integrate it into the main branch.
-- Lots of guides on  the internet on how to use git and github.
 
 # Privacy and Control
 - The owner of the repository can control who can see the repository
   - Anyone
-  - Just certain named people
+  - Certain people
 - The owner of the repository can control who can make changes to the repository:
   - Anyone
-  - Just certain named people
+  - Certain people
+
+# Getting Started with Editing a Document
+- You can use github's online editor for simple things.
+- Just need a github account.
+\vspace{5mm}
+
+- Workflow 1:
+  - Edit a document. 
+  - Write a *commit message* 
+  - “Save and *Fork*” the repository.  
+  - Submit a *pull request*: ask the owner to review and integrate changes.
+  - When the changes are integrated, delete your Fork.
+  - You can always do this
+
+# Getting Started II 
+- Workflow 2:
+  - Edit a document. 
+  - Write a *commit message*: a note about what you did
+  - Save it by *committing* to the main *branch*.
+  - This is my favorite for small things?  What's small -- you know it when you see it.
+
+\vspace{5mm}
+
+- Workflow 3:
+  - Create a *new branch* in the repository.  
+  - Edit a document(s). 
+  - Write a *commit message* 
+  - Commit to that branch.
+  - Submit a *pull request* for the owner to review and integrate your changes.
+  - When the changes are integrated, delete the branch.
+
+# For more complicated tasks: 
+- Install git and either github desktop or Rstudio on your computer (IT-helpdesk)
+\vspace{5mm}
+- Workflow 4:
+  - \textcolor{red}{\textit{Clone} the project to your computer.}
+  - Create a *new branch* in the repository.  
+  - Edit lots of documents. 
+  - Write a *commit message* 
+  - Commit to that branch.
+  - \textcolor{red}{\textit{Push} the changes up to Github}.
+  - Submit a *pull request* for the owner to review and integrate your changes.
+  - When the changes are integrated, delete the branch.
+- Lots of guides on  the internet on how to use git and github.
+
 
         
 # A few guidelines 
@@ -105,4 +115,15 @@ thanks: https://github.com/NEFSC/READ-SSB-Lee-WorkingEfficiently/presentations/g
     - .gitignore 
     - Load in data from Oracle or from locations on the network.
 - Small data on the repository is fine.
+
+# Working Efficiently
+
+https://github.com/NEFSC/READ-SSB-Lee-WorkingEfficiently is a table of contents to some of the things I've collected, including links to 
+
+-    Oracle metadata
+-    A project template with data extraction code 
+-    Some code to run R on the NEFSC Servers.
+-    Code to construct Affiliated Firms for the RFA Analyses.
+-    Code to assemble custom rasters.
+
   
