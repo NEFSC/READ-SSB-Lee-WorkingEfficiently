@@ -54,7 +54,6 @@ and
 Code from the other person shows up between 
 `======`
 
-
 `>>>>>>>`
 
 You have to figure out which you want and then delete these parts:
@@ -65,6 +64,21 @@ You have to figure out which you want and then delete these parts:
 ```
 
 [More reading](https://stackoverflow.com/questions/7901864/git-conflict-markers)
+
+## How to Revert a Single File  
+
+This is a way to go back to an earlier version of a file and remove any changes to the file from a specific commit ID. You'll want to do this in the Terminal if working in RStudio. More info can be found [here](https://dev.to/lofiandcode/git-and-github-how-to-revert-a-single-file-dha).  
+
+1. Find the Commit ID  
+2. Find the File Path  
+3. Revert the file using the following code: 
+```
+git checkout [commit ID] -- path/to/file 
+```
+4. Commit the change:
+```
+git commit -m 'commit message'  
+```
 
 ## Tidying up branches
 
