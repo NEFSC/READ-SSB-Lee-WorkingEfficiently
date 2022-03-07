@@ -1,7 +1,7 @@
 ---
 title: "Helicopter Introduction to Github"
 author: "Min-Yang Lee"
-institute: "Northeast Fisheries Science Center \n\n Woods Hole, MA, 02536"
+institute: "Northeast Fisheries Science Center \n\n Woods Hole, MA 02536"
 date: "March 7, 2022"
 output:
   beamer_presentation:
