@@ -1,7 +1,7 @@
 ---
 title: "Helicopter Introduction to Github"
 author: "Min-Yang Lee"
-institute: NOAA NMFS Northeast Fisheries Science Center, Woods Hole, MA, USA
+institute: "Northeast Fisheries Science Center \n\n Woods Hole, MA, 02536"
 date: "March 7, 2022"
 output:
   beamer_presentation:
@@ -38,26 +38,39 @@ urlcolor: blue
     - Track issues and assign them to people.
     - Aggregate related problems into a project. 
     - Break down a long range project goal into smaller chunks.
+    
+# What are the downsides?
+
 - Adds 2-3 steps to your workflow.
     - Yes, it's a little annoying at first.
     - Yes, the annoyance disappears quickly. 
+\vspace{5mm}
+- Take care not to upload any sensitive information
+    -  Passwords, data, server addresses
+    -  Yes, you can automate this.
     
 # Why use it?
 -  Collaborate with colleagues. 
-    -  Work simultaneously and iterate quickly when developing code.
+    - Work simultaneously and iterate quickly when developing code.
     - No emailing code back and forth. 
-    -  Write collaboratively: [Paper](https://cdnsciencepub.com/doi/10.1139/cjfas-2018-0128) and [repository](https://github.com/sgaichas/herringMSE) 
+    - Write collaboratively: [Paper](https://cdnsciencepub.com/doi/10.1139/cjfas-2018-0128) and [repository](https://github.com/sgaichas/herringMSE) 
+\vspace{5mm}
+
 -  Makes your life easier (maybe) when you do your revisions after 6 months in review.
+\vspace{5mm}
+- Project continuity when there is staff turnover
+\vspace{5mm}
 -  You can’t "break" someone's code.
     - Every version that you tell Github to save is saved.
     - You can always go back to a previous version.  If you’ve written a good enough note that you can find that version quickly.
-- Continuity when staff turnover
-
 
 # Privacy and Control
 - The owner of the repository can control who can see the repository
   - Anyone
   - Certain people
+
+\vspace{5mm}
+
 - The owner of the repository can control who can make changes to the repository:
   - Anyone
   - Certain people
@@ -68,11 +81,11 @@ urlcolor: blue
 \vspace{5mm}
 
 - Workflow 1:
-  - Edit a document. 
+  - Edit a document using Github's online editor. 
   - Write a *commit message* 
   - “Save and *Fork*” the repository.  
   - Submit a *pull request*: ask the owner to review and integrate changes.
-  - When the changes are integrated, delete your Fork.
+  - **After** the changes are integrated, delete your Fork.
   - You can always do this
 
 # Getting Started II 
@@ -90,7 +103,7 @@ urlcolor: blue
   - Write a *commit message* 
   - Commit to that branch.
   - Submit a *pull request* for the owner to review and integrate your changes.
-  - When the changes are integrated, delete the branch.
+  - **After** the changes are integrated, delete the branch.
 
 # For more complicated tasks: 
 - Ask IT-helpdesk to install "git" and either "Github desktop" or "Rstudio" on your computer.
@@ -103,7 +116,7 @@ urlcolor: blue
   - Commit to that branch.
   - \textcolor{red}{\textit{Push} the changes up to Github}.
   - Submit a *pull request* for the owner to review and integrate your changes.
-  - When the changes are integrated, delete the branch.
+  - **After** the changes are integrated, delete the branch.
 - Lots of guides on  the internet on how to use git and github.
 
 
