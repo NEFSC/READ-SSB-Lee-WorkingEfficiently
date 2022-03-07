@@ -39,7 +39,7 @@ urlcolor: blue
     - Aggregate related problems into a project. 
     - Break down a long range project goal into smaller chunks.
     
-# What are the downsides?
+# What are the disadvantages?
 
 - Adds 2-3 steps to your workflow.
     - Yes, it's a little annoying at first.
@@ -49,7 +49,7 @@ urlcolor: blue
     -  Passwords, data, server addresses
     -  Yes, you can automate this.
     
-# Why use it?
+# What are the advantages?
 -  Collaborate with colleagues. 
     - Work simultaneously and iterate quickly when developing code.
     - No emailing code back and forth. 
@@ -93,16 +93,16 @@ urlcolor: blue
   - Edit a document. 
   - Write a *commit message*: a note about what you did
   - Save it by *committing* to the main *branch*.
-  - This is my favorite for small things?  What's small -- you know it when you see it.
+  - This is my favorite for small things.  What's small? -- you know it when you see it.
 
 \vspace{5mm}
 
 - Workflow 3:
   - Create a *new branch* in the repository.  
-  - Edit a document(s). 
+  - Edit a document. 
   - Write a *commit message* 
   - Commit to that branch.
-  - Submit a *pull request* for the owner to review and integrate your changes.
+  - Submit a *pull request*: ask the someone to review, approve, and integrate changes.
   - **After** the changes are integrated, delete the branch.
 
 # For more complicated tasks: 
