@@ -80,9 +80,9 @@ git checkout [commit ID] -- path/to/file
 git commit -m 'commit message'  
 ```
 
-## Tidying up branches
+## Tidying up local branches
 
-You might want to delete branches. Perhaps they no longer exist on github after they were pulled into main?  To do this open a terminal. In the working directory type:
+You might want to delete local branches. Perhaps they no longer exist on github after they were pulled into main?  To do this open a terminal. In the working directory type:
 ```
 git branch
 ```
@@ -92,6 +92,17 @@ git branch -d <branch_to_delete>
 ```
 You will need to use the -D option if you are deleting a branch that has not been fully merged. Like if some of your new code is  bad.
 
+## Tidying up remote branches
+
+After you merge a branch in github, you should also delete it on your local machine. Although nothing bad will happen if you don't. To do so type:
+```
+git remote show origin
+```
+It will show how your local branches correspond to the remote branches on github. It will also tell you about stale branches (that your computer think exist, but are no longer on github). Stale branches can be deleted with
+
+```
+git remote prune origin
+```
 
 # NOAA Requirements
 This repository is a scientific product and is not official communication of the National Oceanic and Atmospheric Administration, or the United States Department of Commerce. All NOAA GitHub project code is provided on an ‘as is’ basis and the user assumes responsibility for its use. Any claims against the Department of Commerce or Department of Commerce bureaus stemming from the use of this GitHub project will be governed by all applicable Federal law. Any reference to specific commercial products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply their endorsement, recommendation or favoring by the Department of Commerce. The Department of Commerce seal and logo, or the seal and logo of a DOC bureau, shall not be used in any manner to imply endorsement of any commercial product or activity by DOC or the United States Government.”
