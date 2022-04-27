@@ -1,9 +1,14 @@
-# This is code that uses Roracle to connect to oracle databases. I have previously used it, however, I cannot use it now because DMS hasn't set up a properly functioning Oracle Client on my laptop.
+# This is code that uses Roracle to connect to oracle databases. 
+# installing the ROracle package is a little bit of a pain. 
+# 1. You need to have an Instantclient installation.
+# 2. You need to set the OCI_LIB64 system variable. You can do this with Sys.setenv(OCI_LIB64= "C:/instantclient_12_2") in your .Rprofile
+# 3. You will need to compile the ROracle package from source. The easiest way to do this is installing Rtools. 
+
 library(here)
 library(ROracle)
 
 #### Set things up
-here::i_am("R_code/data_extracting_processing/extraction/r_oracle_connection.R")
+here::i_am("R_code/data_extraction_processing/extraction/r_oracle_connection.R")
 
 my_projdir<-here()
 
@@ -17,7 +22,7 @@ source(file.path(my_projdir,"R_code","project_logistics","R_credentials.R"))
  #First, set up Oracle Connection
  ############################################################################################
 
- START.YEAR= 2015
+START.YEAR= 2017
 END.YEAR=2018
 
 #First, pull in permits and tripids into a list.
