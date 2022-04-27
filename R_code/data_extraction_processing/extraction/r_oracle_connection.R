@@ -1,13 +1,11 @@
 # This is code that uses Roracle to connect to oracle databases. I have previously used it, however, I cannot use it now because DMS hasn't set up a properly functioning Oracle Client on my laptop.
-
-
-if(!require(ROracle)) {  
-  install.packages("ROracle")
-  require(ROracle)}
-
+library(here)
+library(ROracle)
 
 #### Set things up
-my_projdir<-"C:/Users/Min-Yang.Lee/Documents/project_templates"
+here::i_am("R_code/data_extracting_processing/extraction/r_oracle_connection.R")
+
+my_projdir<-here()
 
 #this reads in paths and libraries
 source(file.path(my_projdir,"R_code","project_logistics","R_paths_libraries.R"))
