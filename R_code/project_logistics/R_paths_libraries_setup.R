@@ -1,11 +1,13 @@
 # R script to create folders
 # If you make a project from the template, all these folders will the there, so you will not have to run it.
 
+# otherwise
+library(here)
+here::i_am("R_code/project_logistics/R_paths_libraries_setup.R")
 
-# This line is the only line you should have to change to get it to run.
-my_projdir<-"C:/Users/Min-Yang.Lee/Documents/project_templates"
+my_projdir<-here()
 
-# Setup directories
+# Create directories
 
 dir.create(my_projdir, showWarnings=FALSE )
 Rcodedir<-file.path(my_projdir,"R_code")
