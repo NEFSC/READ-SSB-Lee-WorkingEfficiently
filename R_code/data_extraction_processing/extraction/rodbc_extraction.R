@@ -1,7 +1,4 @@
-
-if(!require(RODBC)) {  
-  install.packages("RODBC")
-  require(RODBC)}
+library(RODBC)
 
 o<-odbcConnect("sole", uid=id, pwd=solepw, believeNRows=FALSE)
 
