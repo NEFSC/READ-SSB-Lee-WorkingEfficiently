@@ -3,7 +3,7 @@ library(here)
 
 
 #### Set things up
-here::i_am("R_code/data_extracting_processing/extraction/rodbc_extraction.R")
+here::i_am("R_code/data_extraction_processing/extraction/rodbc_extraction.R")
 
 my_projdir<-here()
 
