@@ -1,14 +1,7 @@
-#Install packages if necessary
-if(!require(RODBC)) {  
-  install.packages("RODBC")
-  require(RODBC)}
-if(!require(DBI)) {  
-  install.packages("DBI")
-  require(DBI)}
- # if(!require(ROracle)) {  
- #   install.packages("ROracle")
- #   require(ROracle)}
-
+# Find where you are
+library(here)
+here::i_am("R_code/project_logistics/R_paths_libraries.R")
+my_projdir<-here()
 # Setup directories
 
 Rcodedir<-file.path(my_projdir,"R_code")
