@@ -2,7 +2,7 @@
 title: "Helicopter Introduction to Github"
 author: "Min-Yang Lee"
 institute: "Northeast Fisheries Science Center \n\n Woods Hole, MA 02536"
-date: "March 7, 2022"
+date: "May 18, 2022"
 output:
   beamer_presentation:
     keep_tex: no
@@ -128,6 +128,12 @@ urlcolor: blue
     - .gitignore 
     - Load in data from Oracle or from locations on the network.
 - Small data on the repository is fine.
+
+# Extra 
+- [Git for humans](https://www.youtube.com/watch?v=eWxxfttcMts)
+- [Using Git with Rstudio](https://cfss.uchicago.edu/setup/git-with-rstudio/) 
+- [Even more on Github with Rstudio](https://rfortherestofus.com/2021/02/how-to-use-git-github-with-r/)
+    - Personal access tokens are optional
 
 # Working Efficiently
 
