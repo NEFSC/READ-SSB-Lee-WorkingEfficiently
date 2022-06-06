@@ -104,8 +104,17 @@ It will show how your local branches correspond to the remote branches on github
 git remote prune origin
 ```
 
+## Suggesting in github
 
-# Undeleting or Undoing something
+If you want to make a suggestion on a pull request, enclose your new code with
+````
+```[suggestion]
+change
+```
+````
+https://stackoverflow.com/questions/60311158/how-can-i-suggest-multiple-lines-be-changed-in-markdown
+
+## Undeleting or Undoing something
 
 https://rewind.com/blog/recovering-deleted-files-in-github/
 
