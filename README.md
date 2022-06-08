@@ -40,7 +40,12 @@ Please help make these more valuable and keep them up-to-date.  To add your know
 
 # Lagniappe
 
-Because, who doesn't like a little extra?
+Who doesn't like a little extra? Here are some resources on Git and Github:
+1. https://sethrobertson.github.io/GitFixUm/fixup.html : how to undo things in git
+2. https://rewind.com/blog/recovering-deleted-files-in-github): how to recover deleted files.
+3. [Why bother with git](https://www.youtube.com/watch?v=eWxxfttcMts)
+4. [Using Git with Rstudio](https://cfss.uchicago.edu/setup/git-with-rstudio/) 
+5. [Even more on Github with Rstudio](https://rfortherestofus.com/2021/02/how-to-use-git-github-with-r/)
 
 ## Dealing with Merge Conflicts
 
@@ -114,9 +119,6 @@ change
 ````
 https://stackoverflow.com/questions/60311158/how-can-i-suggest-multiple-lines-be-changed-in-markdown
 
-## Undeleting or Undoing something
-
-https://rewind.com/blog/recovering-deleted-files-in-github/
 
 
 # NOAA Requirements
