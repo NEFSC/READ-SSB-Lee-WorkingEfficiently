@@ -7,7 +7,7 @@ This repository is simply a collection of other repositories that are designed t
 4. Information about setting up github and extracting oracle data on the [servers](https://github.com/NEFSC/READ-SSB-LEE-On-the-servers)
 5. Some code to run [R on the NEFSC Servers](https://github.com/NEFSC/READ-SSB-Lee-Ronthenetwork).  
 6. A scraper for the  [NMFS foreign trade website](https://github.com/cameronspeir/NOAA-Foreign-Fishery-Trade-Data-API).  
-7. [Code to extract external data](https://github.com/NEFSC/READ-SSB-Lee-labor-and-wages) from BLS, St. Louis Federal Reserve, and NMFS FOSS.  
+7. [Code to extract external data](https://github.com/NEFSC/READ-SSB-Lee-external-data) from BLS, St. Louis Federal Reserve, and NMFS FOSS.  
 8. Code to construct Affiliated Firms for the [Regulatory Flexibility Act Analyses](https://github.com/NEFSC/READ-SSB-Lee-RFAdataset).
 9. Some code to run [Call Stata from R](https://github.com/NEFSC/READ-SSB-LEE-R_calling_stata).  
 10. A semi-random jumble of [code scraps](https://github.com/NEFSC/READ-SSB-Lee_code_scraps).  
