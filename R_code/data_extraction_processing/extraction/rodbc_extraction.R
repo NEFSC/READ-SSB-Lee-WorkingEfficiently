@@ -1,3 +1,10 @@
+# Before you can use RODBC to extract data from the Oracle servers, you will need
+# 1.  An Oracle InstantClient Installation.
+# 2.  An Oracle ODBC driver installation. 
+# 3.  A copy of tnsnames.ora that should reside inside your ORACLE_HOME/network/admin folder.  Your ORACLE_HOME will probably be something like C:\instantclient_VV_Y
+# 4.  Properly configured User or System DSNs (through the ODBC Data Source Administrator.)
+# IT helpdesk will do parts 1, 2,3.
+
 library(RODBC)
 library(here)
 
@@ -7,11 +14,7 @@ here::i_am("R_code/data_extraction_processing/extraction/rodbc_extraction.R")
 
 my_projdir<-here()
 
-#this reads in paths and libraries
-source(file.path(my_projdir,"R_code","project_logistics","R_paths_libraries.R"))
-
-# This reads in your R credentials from R_credentials.R, which you have constructed from R_credentials_sample.R, and also added to .gitignore so your passwords are on github. 
-source(file.path(my_projdir,"R_code","project_logistics","R_credentials.R"))
+#set the id and solepw variables somewhere that is not stored on github. I suggest your .Rprofile or .Renviron file.
 
 o<-odbcConnect("sole", uid=id, pwd=solepw, believeNRows=FALSE)
 
