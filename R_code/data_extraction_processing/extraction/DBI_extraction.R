@@ -1,4 +1,4 @@
-# I am not sure which of these things you need need to connect to using DBI
+# We believe that you need the following to connect to using DBI
 # 1.  An Oracle InstantClient Installation.
 # 2.  An Oracle ODBC driver installation. 
 # 3.  A copy of tnsnames.ora that should reside inside your ORACLE_HOME/network/admin folder.  Your ORACLE_HOME will probably be something like C:\instantclient_VV_Y
