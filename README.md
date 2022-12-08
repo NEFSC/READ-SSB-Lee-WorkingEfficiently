@@ -48,15 +48,25 @@ Who doesn't like a little extra? Here are some resources on Git and Github:
 5. [Even more on Github with Rstudio](https://rfortherestofus.com/2021/02/how-to-use-git-github-with-r/)
 
 ## Dealing with Merge Conflicts
+When merging Branch B <- Branch new_feature, there are sometimes merge conflicts. This happens when code has changed in both-- git cannot possibly know which to keep.  I recommend using Github Desktop or the command line to deal with merge conflicts. The reason not to use Github's web interface is because github merges Branch new_feature <-Branch B when it resolves the conflicts. You may or may not want to do this. Resolving merge conflicts is probably the scariest part of using git, so ask for help if you are unsure of what to do.
 
-When there's a merge conflict Rstudio or Git will create a combined file that has code from both. Code from one person will show up between 
+To deal with merge conflicts in the command line from within Rstudio, click on the "Terminal" tab:
+```
+git pull
+git checkout B 
+git merge new_feature
+```
+You will get a "merge conflict" message. Open all the files that are marked with a "U" and resolve the conflicts. Then save, commit, and push as usual.
+
+
+When there's a merge conflict, git will create a combined file that has code from both. Code from one branch will show up between: 
 
 `<<<<<<< HEAD`
 
 and 
 `======`
 
-Code from the other person shows up between 
+Code from the other branch shows up between 
 `======`
 
 `>>>>>>>`
