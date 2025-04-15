@@ -29,8 +29,9 @@ The target is a fork of the upstream. I do not plan to develop in the "main" bra
         upstream_sync_repo: NEFSC/READ-SSB-Lee-WorkingEfficiently # the location of the upstream repo
 ```
 
-Step 4. Upload the modified file to the /.github/workflows folder in your target repository
-Step 5. Test by going to your target repo, actions, and then try to run the workflow manually.
+Step 4. Upload the modified file to the /.github/workflows folder in your **target** repository.
+
+Step 5. Test by going to your target repository, actions, and then try to run the workflow manually.  It can take a few seconds for the workflow to complete. You will know it works when commits by "actions-user" show up in your target repository.
 
 
 To do this in other repositories, repeat steps 2-5.
