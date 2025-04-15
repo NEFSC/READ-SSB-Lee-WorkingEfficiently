@@ -33,5 +33,11 @@ Step 4. Upload the modified file to the /.github/workflows folder in your **targ
 
 Step 5. Test by going to your **target** repository, actions, and then try to run the workflow manually.  It can take a few seconds for the workflow to complete.
 
-
 To do this in other repositories, repeat steps 2-5.
+
+# References
+
+1. https://github.com/marketplace/actions/upstream-sync, which is on github here: https://github.com/aormsby/Fork-Sync-With-Upstream-action
+   
+2. https://github.com/marketplace/actions/sync-fork-action, which is on githbu here: https://github.com/XueMoMo/Sync-Fork-action
+
