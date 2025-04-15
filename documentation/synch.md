@@ -1,9 +1,9 @@
 # Setup
-I have an "upstream" repository here: "https://github.com/NEFSC/READ-SSB-Lee-regulatory-analyses"
+I have an "upstream" repository here: https://github.com/NEFSC/READ-SSB-Lee-WorkingEfficiently
 
-I have a "target" repository here "https://github.com/mle2718/Lee-WorkingEfficiently". 
+I have a "target" repository here: https://github.com/mle2718/Lee-WorkingEfficiently 
 
-The target is a fork of the upstream. I do not plan to develop in the "main" branch of the target repository.  I might develop in a ‘dev’ branch. I might just want to have my own up-to-date fork.
+The target is a fork of the upstream. I do not plan to develop in the "main" branch of the target repository.  I might develop in a "dev" branch. I might just want to have my own up-to-date fork.
 
 # Instructions
 
@@ -14,27 +14,22 @@ The target is a fork of the upstream. I do not plan to develop in the "main" bra
 
 
 2. Store the token from step 1 in your target repository.
-  * Open the repo, click  Settings, Secrets and variables dropdown on the left, "Actions".  Then click the "New repository secret"  
+	  * Open the repo, click  Settings, Secrets and variables dropdown on the left, "Actions".  Then click the "New repository secret"  
     Name = "MY_WORKFLOW_TOKEN" 
     Secret = token from step 1
 
 
-3. Download this file
-
-
-https://github.com/mle2718/Lee-WorkingEfficiently/blob/main/.github/workflows/wf-fork-sync.yaml
-modify these 3 lines
+3. Download this file https://github.com/NEFSC/READ-SSB-Lee-WorkingEfficiently/blob/main/.github/workflows/wf-fork-sync.yaml and modify these 3 lines:
 
 
 ```
       with:
-        target_sync_branch: main
-        upstream_sync_branch: main
-        upstream_sync_repo: NEFSC/READ-SSB-Lee-WorkingEfficiently
+        target_sync_branch: main    # or master
+        upstream_sync_branch: main  # or master
+        upstream_sync_repo: NEFSC/READ-SSB-Lee-WorkingEfficiently # the location of the upstream repo
 ```
 
-
-Step 4. Upload the modified file in .github/workflows folder in your target repository
+Step 4. Upload the modified file to the /.github/workflows folder in your target repository
 Step 5. Test by going to your target repo, actions, and then try to run the workflow manually.
 
 
