@@ -30,7 +30,7 @@ modify these 3 lines
       with:
         target_sync_branch: main
         upstream_sync_branch: main
-        upstream_sync_repo: NEFSC/READ-SSB-Lee-regulatory-analyses
+        upstream_sync_repo: NEFSC/READ-SSB-Lee-WorkingEfficiently
 ```
 
 
