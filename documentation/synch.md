@@ -5,6 +5,8 @@ I have a **target** repository here: https://github.com/mle2718/Lee-WorkingEffic
 
 The **target** is a fork of the upstream. I do not plan to develop in the "main" branch of the target repository.  I might develop in a "dev" branch. I might just want to have my own up-to-date fork.
 
+The upstream repository must be a public repository. You might be able to get it to work on a private one, but I don't know how to do that yet.
+
 # Instructions
 
 1. In your github account,  create a token called "MY_WORKFLOW_TOKEN".  
