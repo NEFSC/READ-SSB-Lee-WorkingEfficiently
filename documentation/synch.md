@@ -19,10 +19,17 @@ The **target** is a fork of the upstream. I do not plan to develop in the "main"
     Secret = token from step 1
 
 
-3. Download this file https://github.com/NEFSC/READ-SSB-Lee-WorkingEfficiently/blob/main/.github/workflows/wf-fork-sync.yaml and modify these 3 lines:
+3. Download this file https://github.com/NEFSC/READ-SSB-Lee-WorkingEfficiently/blob/main/.github/workflows/wf-fork-sync.yaml.  Modify the lines of code that pass in the upstream branch to checkout/sync (2 places), the target branch name, and the upstream repo name.  
 
 
 ```
+    steps:
+    - name: Checkout main
+      uses: actions/checkout@v2
+      with:
+        ref: main # or master
+
+
       with:
         target_sync_branch: main    # or master
         upstream_sync_branch: main  # or master
